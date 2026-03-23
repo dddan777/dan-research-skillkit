@@ -24,11 +24,11 @@ def sha1_for_path(path: Path) -> str:
     return hasher.hexdigest()
 
 
-def load_pdf_paths(all_pdfs: bool) -> list[tuple[str, Path]]:
+def load_pdf_paths(all_pdfs: bool) -> list[tuple[str, Path, str | None]]:
     if all_pdfs:
         rows = load_csv_rows(BOOK_DATA_DIR / "raw_inventory.csv")
         return [
-            (row["path"], WORKSPACE_ROOT / row["path"])
+            (row["path"], WORKSPACE_ROOT / row["path"], row.get("sha1") or None)
             for row in rows
             if row["ext"] == ".pdf"
         ]
@@ -39,12 +39,19 @@ def load_pdf_paths(all_pdfs: bool) -> list[tuple[str, Path]]:
         if row["file_type"] != ".pdf":
             continue
         rel_path = row["canonical_path"]
-        items.append((rel_path, WORKSPACE_ROOT / rel_path))
+        items.append((rel_path, WORKSPACE_ROOT / rel_path, row.get("sha1") or None))
     return items
 
 
 def run_command(args: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(args, text=True, capture_output=True, check=False)
+
+
+def safe_read_json(path: Path) -> dict[str, object] | None:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return None
 
 
 def split_pages(raw_text: str) -> list[str]:
@@ -97,17 +104,27 @@ def looks_promotional_line(line: str) -> bool:
     return False
 
 
-def extract_one(rel_path: str, pdf_path: Path, render_preview: bool, force: bool = False) -> dict[str, object]:
-    try:
-        source_hash = sha1_for_path(pdf_path)
-    except (OSError, TimeoutError):
-        source_hash = hashlib.sha1(rel_path.encode("utf-8")).hexdigest()
+def extract_one(
+    rel_path: str,
+    pdf_path: Path,
+    render_preview: bool,
+    force: bool = False,
+    known_sha1: str | None = None,
+) -> dict[str, object]:
+    source_hash = known_sha1
+    if not source_hash:
+        try:
+            source_hash = sha1_for_path(pdf_path)
+        except (OSError, TimeoutError):
+            source_hash = hashlib.sha1(rel_path.encode("utf-8")).hexdigest()
     source_id = f"pdf-{source_hash[:12]}"
     target_dir = ensure_dir(PDF_OUTPUT_ROOT / source_id)
     metadata_path = target_dir / "metadata.json"
     content_path = target_dir / "content.md"
     if metadata_path.exists() and content_path.exists() and not force:
-        return json.loads(metadata_path.read_text(encoding="utf-8"))
+        cached = safe_read_json(metadata_path)
+        if cached is not None:
+            return cached
     try:
         info = run_command(["pdfinfo", str(pdf_path)])
         with tempfile.NamedTemporaryFile(suffix=".txt", delete=False) as handle:
@@ -161,6 +178,10 @@ def extract_one(rel_path: str, pdf_path: Path, render_preview: bool, force: bool
     return metadata
 
 
+def write_summary_index(summary: list[dict[str, object]]) -> None:
+    write_json(PDF_OUTPUT_ROOT / "index.json", summary)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--all", action="store_true", help="Process every PDF listed in raw_inventory.csv")
@@ -174,7 +195,7 @@ def main() -> None:
         items = items[: args.limit]
 
     summary = []
-    for rel_path, pdf_path in items:
+    for idx, (rel_path, pdf_path, known_sha1) in enumerate(items, start=1):
         if not pdf_path.exists():
             continue
         summary.append(
@@ -183,10 +204,13 @@ def main() -> None:
                 pdf_path,
                 render_preview=args.render_preview,
                 force=args.force,
+                known_sha1=known_sha1,
             )
         )
+        if idx % 25 == 0:
+            write_summary_index(summary)
 
-    write_json(PDF_OUTPUT_ROOT / "index.json", summary)
+    write_summary_index(summary)
 
 
 if __name__ == "__main__":

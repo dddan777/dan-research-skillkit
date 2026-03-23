@@ -91,6 +91,7 @@ Troubleshooting docs:
 - [`docs/install-claude.md`](docs/install-claude.md)
 - [`docs/install-codex.md`](docs/install-codex.md)
 - [`docs/extraction-pipeline.md`](docs/extraction-pipeline.md)
+- [`docs/collection-status.md`](docs/collection-status.md)
 
 ## Roadmap, License, and Author / 路线图、许可与作者
 Roadmap:

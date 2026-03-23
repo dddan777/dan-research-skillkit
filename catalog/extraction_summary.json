@@ -1,0 +1,59 @@
+{
+  "processed": 1020,
+  "unique_extracts": 333,
+  "ok": 1020,
+  "error": 0,
+  "with_preview": 89,
+  "theme_counts": [
+    [
+      "research",
+      245
+    ],
+    [
+      "archive",
+      60
+    ],
+    [
+      "question-gap",
+      12
+    ],
+    [
+      "literature",
+      7
+    ],
+    [
+      "review-paper",
+      3
+    ],
+    [
+      "unknown",
+      3
+    ],
+    [
+      "planning",
+      2
+    ],
+    [
+      "writing",
+      1
+    ]
+  ],
+  "skill_counts": [
+    [
+      "dan-academic-tools",
+      10
+    ],
+    [
+      "dan-literature",
+      7
+    ],
+    [
+      "dan-planning",
+      2
+    ],
+    [
+      "dan-paper-writing",
+      1
+    ]
+  ]
+}
