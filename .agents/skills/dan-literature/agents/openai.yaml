@@ -1,0 +1,3 @@
+display_name: "dan-literature"
+short_description: "Turn search, screening, note-taking, and synthesis into a reusable literature workflow."
+default_prompt: "How should I read papers efficiently"

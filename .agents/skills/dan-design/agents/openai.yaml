@@ -1,0 +1,3 @@
+display_name: "dan-design"
+short_description: "Use a four-layer alignment model to connect question, explanation, evidence, and analysis."
+default_prompt: "Help me choose a method"

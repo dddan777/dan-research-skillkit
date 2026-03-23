@@ -1,0 +1,3 @@
+display_name: "dan-planning"
+short_description: "Turn long-horizon research into stages, rhythms, milestones, and review loops."
+default_prompt: "Help me plan my PhD workflow"

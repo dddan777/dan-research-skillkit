@@ -1,0 +1,3 @@
+display_name: "dan-review-paper"
+short_description: "Differentiate review articles from regular literature reviews and organize screening, synthesis, and contribution writing."
+default_prompt: "How do I write a review paper"

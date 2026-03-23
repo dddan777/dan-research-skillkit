@@ -1,0 +1,42 @@
+{
+  "pack_id": "tools",
+  "skill_id": "dan-academic-tools",
+  "title_zh": "学术工具、模板与 AI 辅助边界",
+  "title_en": "Academic Tools, Templates, and AI Usage Boundaries",
+  "summary_zh": "这个知识包把工具当成支持系统，而不是研究能力的替代品，重点是模板调用、信息组织和 AI 辅助边界。",
+  "summary_en": "This pack treats tools as support systems rather than substitutes for research thinking, with focus on templates, information organization, and AI boundaries.",
+  "concepts": [
+    "工具流 / toolflow",
+    "模板流 / template flow",
+    "AI 辅助边界 / AI assistance boundary",
+    "研究支持系统 / research support system"
+  ],
+  "frameworks": [
+    {
+      "title": "Tool-by-Task Routing",
+      "description": "Choose tools according to the research task they support rather than novelty or trend value."
+    },
+    {
+      "title": "Template Reuse Ladder",
+      "description": "Start with a stable scaffold, then adapt it to the current stage, audience, and output requirement."
+    }
+  ],
+  "checklists": [
+    "Does this tool reduce friction or create more switching cost?",
+    "What part should remain human judgment?",
+    "Which template can shorten setup without freezing thinking?"
+  ],
+  "templates": [
+    "toolchain audit",
+    "template selection sheet",
+    "AI boundary checklist"
+  ],
+  "source_ids": [
+    "S1004",
+    "S1005",
+    "S1001",
+    "S1003",
+    "S0101",
+    "S1002"
+  ]
+}

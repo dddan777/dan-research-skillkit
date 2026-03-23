@@ -1,0 +1,43 @@
+{
+  "pack_id": "submission",
+  "skill_id": "dan-submission",
+  "title_zh": "投稿、返修与审稿沟通",
+  "title_en": "Submission, Revision, and Reviewer Communication",
+  "summary_zh": "这个知识包把投稿看成一个沟通过程，而不仅是上传文件。重点包括投稿前判断、材料完整性、意见分类与回应逻辑。",
+  "summary_en": "This pack treats submission as a communication workflow rather than a file-upload event, with emphasis on package readiness and reviewer response logic.",
+  "concepts": [
+    "投稿包 / submission package",
+    "返修逻辑 / revision logic",
+    "回应矩阵 / response matrix",
+    "分歧沟通 / disagreement management"
+  ],
+  "frameworks": [
+    {
+      "title": "Submit-Respond-Revise Loop",
+      "description": "A manuscript improves through staged communication rather than one final upload."
+    },
+    {
+      "title": "Comment-Type Triage",
+      "description": "Separate mandatory corrections, clarifications, defensible disagreements, and future-work notes before replying."
+    }
+  ],
+  "checklists": [
+    "Is the manuscript actually submission-ready?",
+    "What category does each reviewer comment belong to?",
+    "Does my reply explain both action and rationale?"
+  ],
+  "templates": [
+    "submission package checklist",
+    "response letter skeleton",
+    "reviewer comment matrix"
+  ],
+  "source_ids": [
+    "S0802",
+    "S0803",
+    "S0806",
+    "S0804",
+    "S0805",
+    "S0807",
+    "S0801"
+  ]
+}

@@ -1,0 +1,3 @@
+display_name: "dan-upgrade"
+short_description: "Maintain incremental updates, source mapping, and dual-host skill distribution."
+default_prompt: "Update this research skillkit"

@@ -1,0 +1,3 @@
+display_name: "dan-academic-tools"
+short_description: "Organize toolflows and reusable templates for literature work, writing, submission, presentation, and planning."
+default_prompt: "What tools should I use for this research workflow"

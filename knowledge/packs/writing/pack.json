@@ -1,0 +1,41 @@
+{
+  "pack_id": "writing",
+  "skill_id": "dan-paper-writing",
+  "title_zh": "论文结构、章节呼应与表达边界",
+  "title_en": "Paper Structure, Section Logic, and Writing Boundaries",
+  "summary_zh": "这个知识包关注单篇论文的叙述闭环：问题怎样被引出、理论怎样被承接、方法怎样被解释、结果怎样被讨论。",
+  "summary_en": "This pack focuses on the narrative closure of a paper: how the question is introduced, theory is carried, methods are justified, and results are interpreted.",
+  "concepts": [
+    "八大模块 / eight core modules",
+    "章节接口 / section interfaces",
+    "结果与讨论边界 / results-discussion boundary",
+    "写作顺序 / drafting sequence"
+  ],
+  "frameworks": [
+    {
+      "title": "Eight-Module Skeleton",
+      "description": "Use a stable paper skeleton so each section contributes to one argument rather than becoming a standalone memo."
+    },
+    {
+      "title": "Section Handoffs",
+      "description": "Each section should answer what the next section now needs to justify."
+    }
+  ],
+  "checklists": [
+    "What job does this section do in the overall argument?",
+    "Does the next section logically require what I have just written?",
+    "Am I reporting results or interpreting them?"
+  ],
+  "templates": [
+    "paper-outline sheet",
+    "introduction scaffold",
+    "results-discussion boundary checklist"
+  ],
+  "source_ids": [
+    "S0601",
+    "S0602",
+    "S0603",
+    "S0604",
+    "S0404"
+  ]
+}

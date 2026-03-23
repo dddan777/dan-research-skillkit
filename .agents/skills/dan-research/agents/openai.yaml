@@ -1,0 +1,3 @@
+display_name: "dan-research"
+short_description: "Route researchers through the full lifecycle, stage diagnosis, and next-output planning."
+default_prompt: "I do not know where to start my research"

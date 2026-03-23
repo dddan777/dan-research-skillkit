@@ -1,0 +1,132 @@
+{
+  "dan-research": {
+    "pack_id": "research",
+    "title_zh": "研究总览与主线导航",
+    "title_en": "Research Map and Lifecycle Navigation",
+    "related_skills": [
+      "dan-literature",
+      "dan-question-gap",
+      "dan-planning"
+    ]
+  },
+  "dan-literature": {
+    "pack_id": "literature",
+    "title_zh": "文献检索、阅读与文献池搭建",
+    "title_en": "Literature Search, Reading, and Evidence Pool Building",
+    "related_skills": [
+      "dan-question-gap",
+      "dan-paper-writing",
+      "dan-academic-tools"
+    ]
+  },
+  "dan-question-gap": {
+    "pack_id": "question-gap",
+    "title_zh": "研究问题、research gap 与创新点形成",
+    "title_en": "Research Questions, Gaps, and Contribution Formation",
+    "related_skills": [
+      "dan-literature",
+      "dan-theory",
+      "dan-design"
+    ]
+  },
+  "dan-theory": {
+    "pack_id": "theory",
+    "title_zh": "理论基础、概念框架与理论贡献",
+    "title_en": "Theory Base, Conceptual Framework, and Theoretical Contribution",
+    "related_skills": [
+      "dan-question-gap",
+      "dan-design",
+      "dan-paper-writing"
+    ]
+  },
+  "dan-design": {
+    "pack_id": "design",
+    "title_zh": "研究设计、证据类型与方法匹配",
+    "title_en": "Research Design, Evidence Types, and Method Fit",
+    "related_skills": [
+      "dan-question-gap",
+      "dan-theory",
+      "dan-method-atlas"
+    ]
+  },
+  "dan-paper-writing": {
+    "pack_id": "writing",
+    "title_zh": "论文结构、章节呼应与表达边界",
+    "title_en": "Paper Structure, Section Logic, and Writing Boundaries",
+    "related_skills": [
+      "dan-theory",
+      "dan-design",
+      "dan-submission"
+    ]
+  },
+  "dan-review-paper": {
+    "pack_id": "review-paper",
+    "title_zh": "综述论文类型、筛选规范与写作组织",
+    "title_en": "Review Article Types, Screening Standards, and Writing Logic",
+    "related_skills": [
+      "dan-literature",
+      "dan-question-gap",
+      "dan-paper-writing"
+    ]
+  },
+  "dan-submission": {
+    "pack_id": "submission",
+    "title_zh": "投稿、返修与审稿沟通",
+    "title_en": "Submission, Revision, and Reviewer Communication",
+    "related_skills": [
+      "dan-paper-writing",
+      "dan-defense",
+      "dan-academic-tools"
+    ]
+  },
+  "dan-defense": {
+    "pack_id": "defense",
+    "title_zh": "学术汇报、开题中期与毕业答辩",
+    "title_en": "Academic Presentation, Proposal Defense, and Final Defense",
+    "related_skills": [
+      "dan-research",
+      "dan-paper-writing",
+      "dan-submission"
+    ]
+  },
+  "dan-planning": {
+    "pack_id": "planning",
+    "title_zh": "科研规划、时间安排与长期推进",
+    "title_en": "Research Planning, Time Allocation, and Long-Term Execution",
+    "related_skills": [
+      "dan-research",
+      "dan-literature",
+      "dan-defense"
+    ]
+  },
+  "dan-method-atlas": {
+    "pack_id": "methods",
+    "title_zh": "方法图谱与任务-方法对照",
+    "title_en": "Method Atlas and Task-to-Method Mapping",
+    "related_skills": [
+      "dan-design",
+      "dan-theory",
+      "dan-review-paper"
+    ]
+  },
+  "dan-academic-tools": {
+    "pack_id": "tools",
+    "title_zh": "学术工具、模板与 AI 辅助边界",
+    "title_en": "Academic Tools, Templates, and AI Usage Boundaries",
+    "related_skills": [
+      "dan-literature",
+      "dan-paper-writing",
+      "dan-submission"
+    ]
+  },
+  "dan-upgrade": {
+    "pack_id": "upgrade",
+    "title_zh": "知识包更新、来源刷新与双宿主发布",
+    "title_en": "Pack Refresh, Source Updates, and Dual-Host Publishing",
+    "related_skills": [
+      "dan-research",
+      "dan-method-atlas",
+      "dan-academic-tools"
+    ]
+  }
+}

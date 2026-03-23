@@ -1,0 +1,42 @@
+{
+  "pack_id": "methods",
+  "skill_id": "dan-method-atlas",
+  "title_zh": "方法图谱与任务-方法对照",
+  "title_en": "Method Atlas and Task-to-Method Mapping",
+  "summary_zh": "这个知识包不教某一个软件怎么点，而是帮助用户理解不同问题、不同证据和不同方法之间的映射关系。",
+  "summary_en": "This pack does not teach a single software workflow; it helps researchers understand how question types, evidence types, and methods map to one another.",
+  "concepts": [
+    "方法图谱 / method atlas",
+    "任务-方法映射 / task-method routing",
+    "证据形态 / evidence form",
+    "设计风险 / design risk"
+  ],
+  "frameworks": [
+    {
+      "title": "Question-to-Method Matrix",
+      "description": "Compare method families by the kind of answer they can credibly support."
+    },
+    {
+      "title": "Evidence-to-Analysis Matrix",
+      "description": "Map data forms to analysis strategies before choosing a named method."
+    }
+  ],
+  "checklists": [
+    "What answer format do I need: pattern, relationship, mechanism, or process?",
+    "What evidence form do I have or can realistically get?",
+    "What method family is being excluded, and why?"
+  ],
+  "templates": [
+    "question-method matrix",
+    "evidence-analysis matrix",
+    "design risk table"
+  ],
+  "source_ids": [
+    "S0501",
+    "S0502",
+    "S0504",
+    "S0505",
+    "S0506",
+    "S0503"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pack_id": "planning",
+  "skill_id": "dan-planning",
+  "title_zh": "科研规划、时间安排与长期推进",
+  "title_en": "Research Planning, Time Allocation, and Long-Term Execution",
+  "summary_zh": "这个知识包关注长期推进而不是短期热情，强调阶段任务、每周节奏、里程碑产出和复盘修正。",
+  "summary_en": "This pack focuses on sustained progress instead of short bursts of effort, using stages, weekly rhythms, deliverables, and review loops.",
+  "concepts": [
+    "阶段治理 / stage governance",
+    "里程碑 / milestone",
+    "四周推进 / four-week rhythm",
+    "复盘 / review loop"
+  ],
+  "frameworks": [
+    {
+      "title": "Stage-Rhythm-Output",
+      "description": "Every long task needs a stage definition, a short rhythm, and a concrete output."
+    },
+    {
+      "title": "Bottleneck Review Loop",
+      "description": "Diagnose whether the slowdown comes from unclear direction, weak structure, missing data, or low execution bandwidth."
+    }
+  ],
+  "checklists": [
+    "What is the next visible deliverable?",
+    "Does this week advance a stage or only create noise?",
+    "What bottleneck needs diagnosis before more effort?"
+  ],
+  "templates": [
+    "weekly planning sheet",
+    "milestone tracker",
+    "bottleneck review note"
+  ],
+  "source_ids": [
+    "S1004",
+    "S1005",
+    "S1001",
+    "S1003",
+    "S0101",
+    "S1002"
+  ]
+}

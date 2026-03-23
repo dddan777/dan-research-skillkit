@@ -1,0 +1,42 @@
+{
+  "pack_id": "design",
+  "skill_id": "dan-design",
+  "title_zh": "研究设计、证据类型与方法匹配",
+  "title_en": "Research Design, Evidence Types, and Method Fit",
+  "summary_zh": "这个知识包把方法选择从‘熟悉什么做什么’改成‘问题、理论、数据、分析是否对齐’的判断过程。",
+  "summary_en": "This pack shifts method choice away from habit and toward alignment among the research question, theoretical task, evidence, and analysis.",
+  "concepts": [
+    "研究设计 / research design",
+    "证据策略 / evidence strategy",
+    "混合研究 / mixed methods",
+    "内容分析 / content analysis"
+  ],
+  "frameworks": [
+    {
+      "title": "Four-Layer Alignment",
+      "description": "Question, explanation, evidence, and analysis should narrow together rather than drift apart."
+    },
+    {
+      "title": "Method-by-Task Matching",
+      "description": "Choose methods by whether you need to describe, compare, explain, validate, or trace a process."
+    }
+  ],
+  "checklists": [
+    "What kind of answer does the question require?",
+    "Can the available evidence actually support that answer?",
+    "Is mixed methods serving a real explanatory task?"
+  ],
+  "templates": [
+    "design alignment note",
+    "method-fit checklist",
+    "data-evidence table"
+  ],
+  "source_ids": [
+    "S0501",
+    "S0502",
+    "S0504",
+    "S0505",
+    "S0506",
+    "S0503"
+  ]
+}

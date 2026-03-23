@@ -1,0 +1,239 @@
+[
+  {
+    "pack_id": "research",
+    "topic": "research",
+    "skill_id": "dan-research",
+    "source_ids": [
+      "S0101",
+      "S0102",
+      "S0103",
+      "S0104",
+      "S0105",
+      "A0104",
+      "S0106"
+    ]
+  },
+  {
+    "pack_id": "literature",
+    "topic": "literature",
+    "skill_id": "dan-literature",
+    "source_ids": [
+      "S0201",
+      "S0202",
+      "S0203",
+      "S0204",
+      "S0206",
+      "S0207",
+      "S0205"
+    ]
+  },
+  {
+    "pack_id": "question-gap",
+    "topic": "question-gap",
+    "skill_id": "dan-question-gap",
+    "source_ids": [
+      "S0301",
+      "S0302",
+      "S0304",
+      "S0305",
+      "S0307",
+      "S0303",
+      "S0306",
+      "S0308"
+    ]
+  },
+  {
+    "pack_id": "theory",
+    "topic": "theory",
+    "skill_id": "dan-theory",
+    "source_ids": [
+      "S0401",
+      "S0402",
+      "S0403",
+      "S0404",
+      "S0406",
+      "S0405",
+      "S0407"
+    ]
+  },
+  {
+    "pack_id": "design",
+    "topic": "design",
+    "skill_id": "dan-design",
+    "source_ids": [
+      "S0501",
+      "S0502",
+      "S0504",
+      "S0505",
+      "S0506",
+      "S0503"
+    ]
+  },
+  {
+    "pack_id": "writing",
+    "topic": "writing",
+    "skill_id": "dan-paper-writing",
+    "source_ids": [
+      "S0601",
+      "S0602",
+      "S0603",
+      "S0604",
+      "S0404"
+    ]
+  },
+  {
+    "pack_id": "review-paper",
+    "topic": "review-paper",
+    "skill_id": "dan-review-paper",
+    "source_ids": [
+      "S0701",
+      "S0702",
+      "S0703",
+      "S0705",
+      "A0102",
+      "A0103",
+      "S0704",
+      "S0706"
+    ]
+  },
+  {
+    "pack_id": "submission",
+    "topic": "submission",
+    "skill_id": "dan-submission",
+    "source_ids": [
+      "S0802",
+      "S0803",
+      "S0806",
+      "S0804",
+      "S0805",
+      "S0807",
+      "S0801"
+    ]
+  },
+  {
+    "pack_id": "defense",
+    "topic": "defense",
+    "skill_id": "dan-defense",
+    "source_ids": [
+      "S0903",
+      "S0904",
+      "A0104",
+      "S0905",
+      "S0906",
+      "S0901",
+      "S0902"
+    ]
+  },
+  {
+    "pack_id": "planning",
+    "topic": "planning",
+    "skill_id": "dan-planning",
+    "source_ids": [
+      "S1004",
+      "S1005",
+      "S1001",
+      "S1003",
+      "S0101",
+      "S1002"
+    ]
+  },
+  {
+    "pack_id": "methods",
+    "topic": "methods",
+    "skill_id": "dan-method-atlas",
+    "source_ids": [
+      "S0501",
+      "S0502",
+      "S0504",
+      "S0505",
+      "S0506",
+      "S0503"
+    ]
+  },
+  {
+    "pack_id": "tools",
+    "topic": "tools",
+    "skill_id": "dan-academic-tools",
+    "source_ids": [
+      "S1004",
+      "S1005",
+      "S1001",
+      "S1003",
+      "S0101",
+      "S1002"
+    ]
+  },
+  {
+    "pack_id": "upgrade",
+    "topic": "upgrade",
+    "skill_id": "dan-upgrade",
+    "source_ids": [
+      "S0101",
+      "S0102",
+      "S0103",
+      "S0104",
+      "S0105",
+      "S0106",
+      "S0201",
+      "S0202",
+      "S0203",
+      "S0204",
+      "S0205",
+      "S0206",
+      "S0207",
+      "S0301",
+      "S0302",
+      "S0303",
+      "S0304",
+      "S0305",
+      "S0306",
+      "S0307",
+      "S0308",
+      "S0401",
+      "S0402",
+      "S0403",
+      "S0404",
+      "S0405",
+      "S0406",
+      "S0407",
+      "S0501",
+      "S0502",
+      "S0503",
+      "S0504",
+      "S0505",
+      "S0506",
+      "S0601",
+      "S0602",
+      "S0603",
+      "S0604",
+      "S0701",
+      "S0702",
+      "S0703",
+      "S0704",
+      "S0705",
+      "S0706",
+      "S0801",
+      "S0802",
+      "S0803",
+      "S0804",
+      "S0805",
+      "S0806",
+      "S0807",
+      "S0901",
+      "S0902",
+      "S0903",
+      "S0904",
+      "S0905",
+      "S0906",
+      "S1001",
+      "S1002",
+      "S1003",
+      "S1004",
+      "S1005",
+      "T0101",
+      "T0102",
+      "T0103",
+      "T0104"
+    ]
+  }
+]

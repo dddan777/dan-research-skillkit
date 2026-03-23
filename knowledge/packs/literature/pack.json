@@ -1,0 +1,43 @@
+{
+  "pack_id": "literature",
+  "skill_id": "dan-literature",
+  "title_zh": "文献检索、阅读与文献池搭建",
+  "title_en": "Literature Search, Reading, and Evidence Pool Building",
+  "summary_zh": "这个知识包把文献工作拆成可执行的四步链：关键词与入口、初始池与分层、精读与笔记、整理表与文献金字塔。",
+  "summary_en": "This pack reframes literature work as a four-step system: search, screen, read, and synthesize into a living evidence pool.",
+  "concepts": [
+    "文献池 / evidence pool",
+    "精读 / deep reading",
+    "文献整理表 / literature matrix",
+    "文献金字塔 / literature pyramid"
+  ],
+  "frameworks": [
+    {
+      "title": "Four-Step Literature Chain",
+      "description": "Search, read, note, and organize. Each step narrows the pool and increases reuse value."
+    },
+    {
+      "title": "Layered Screening",
+      "description": "Separate background, related, directly relevant, and method-support papers before reading intensively."
+    }
+  ],
+  "checklists": [
+    "Why is this paper worth keeping?",
+    "Which field in the note makes it reusable later?",
+    "Does my current pool answer the present research question?"
+  ],
+  "templates": [
+    "literature-matrix",
+    "deep-reading note",
+    "paper-retention checklist"
+  ],
+  "source_ids": [
+    "S0201",
+    "S0202",
+    "S0203",
+    "S0204",
+    "S0206",
+    "S0207",
+    "S0205"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "pack_id": "defense",
+  "skill_id": "dan-defense",
+  "title_zh": "学术汇报、开题中期与毕业答辩",
+  "title_en": "Academic Presentation, Proposal Defense, and Final Defense",
+  "summary_zh": "这个知识包按汇报场景而不是按幻灯片模板来组织，帮助用户识别‘要讲什么、给谁讲、讲到多深’。",
+  "summary_en": "This pack organizes presentation work by scenario rather than slide aesthetics, so the speaker can decide what to say, to whom, and at what depth.",
+  "concepts": [
+    "学术汇报 / academic presentation",
+    "开题答辩 / proposal defense",
+    "中期答辩 / mid-term review",
+    "毕业答辩 / final defense"
+  ],
+  "frameworks": [
+    {
+      "title": "Audience-Question-Evidence",
+      "description": "Choose slides and speaking depth by what the audience needs to understand or challenge."
+    },
+    {
+      "title": "Defense Scenario Routing",
+      "description": "Proposal, progress review, and final defense each require different levels of certainty and scope."
+    }
+  ],
+  "checklists": [
+    "What is the core decision this defense is trying to secure?",
+    "What evidence must the audience trust before moving on?",
+    "What belongs in slides versus the spoken explanation?"
+  ],
+  "templates": [
+    "defense storyline sheet",
+    "slide-logic checklist",
+    "audience-question rehearsal sheet"
+  ],
+  "source_ids": [
+    "S0903",
+    "S0904",
+    "A0104",
+    "S0905",
+    "S0906",
+    "S0901",
+    "S0902"
+  ]
+}

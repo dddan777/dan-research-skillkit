@@ -1,0 +1,405 @@
+[
+  {
+    "skill_id": "dan-research",
+    "name": "dan-research",
+    "description_zh": "用全局地图帮助研究者判断自己所处阶段、下一步产出与优先任务。",
+    "description_en": "Route researchers through the full lifecycle, stage diagnosis, and next-output planning.",
+    "triggers": [
+      "I do not know where to start my research",
+      "Help me locate my current PhD stage",
+      "我现在卡在哪个阶段",
+      "帮我梳理整体研究路径"
+    ],
+    "pack_ids": [
+      "research"
+    ],
+    "related_skills": [
+      "dan-literature",
+      "dan-question-gap",
+      "dan-planning"
+    ],
+    "scope_in": [
+      "research stage diagnosis",
+      "lifecycle planning",
+      "output mapping",
+      "chapter-to-stage navigation"
+    ],
+    "scope_out": [
+      "database-specific search strings",
+      "statistical implementation details",
+      "journal formatting minutiae"
+    ]
+  },
+  {
+    "skill_id": "dan-literature",
+    "name": "dan-literature",
+    "description_zh": "把找文献、筛文献、做笔记和搭文献池连成一条可复用工作流。",
+    "description_en": "Turn search, screening, note-taking, and synthesis into a reusable literature workflow.",
+    "triggers": [
+      "How should I read papers efficiently",
+      "Build me a literature workflow",
+      "我不会读文献",
+      "帮我搭文献池"
+    ],
+    "pack_ids": [
+      "literature"
+    ],
+    "related_skills": [
+      "dan-question-gap",
+      "dan-paper-writing",
+      "dan-academic-tools"
+    ],
+    "scope_in": [
+      "keyword planning",
+      "screening layers",
+      "reading depth decisions",
+      "literature matrix design"
+    ],
+    "scope_out": [
+      "full systematic-review protocol",
+      "journal submission strategy",
+      "field-specific bibliometrics"
+    ]
+  },
+  {
+    "skill_id": "dan-question-gap",
+    "name": "dan-question-gap",
+    "description_zh": "帮助用户把方向压缩成值得研究的问题，并把 gap 转成创新点与贡献表述。",
+    "description_en": "Help researchers compress a broad area into a study-worthy question, then turn the gap into a defensible contribution.",
+    "triggers": [
+      "How do I find a research gap",
+      "Turn this topic into a research question",
+      "帮我找 research gap",
+      "把方向变成问题"
+    ],
+    "pack_ids": [
+      "question-gap"
+    ],
+    "related_skills": [
+      "dan-literature",
+      "dan-theory",
+      "dan-design"
+    ],
+    "scope_in": [
+      "question formation",
+      "gap typology",
+      "value justification",
+      "problem boundaries"
+    ],
+    "scope_out": [
+      "full theory writing",
+      "full literature-search execution",
+      "statistical model choice"
+    ]
+  },
+  {
+    "skill_id": "dan-theory",
+    "name": "dan-theory",
+    "description_zh": "帮助用户从文献中搭建概念框架、理论逻辑和理论贡献表达。",
+    "description_en": "Build conceptual frameworks, theoretical logic, and contribution claims from the literature base.",
+    "triggers": [
+      "How do I build a conceptual framework",
+      "What counts as theoretical contribution",
+      "帮我搭理论框架",
+      "理论贡献怎么写"
+    ],
+    "pack_ids": [
+      "theory"
+    ],
+    "related_skills": [
+      "dan-question-gap",
+      "dan-design",
+      "dan-paper-writing"
+    ],
+    "scope_in": [
+      "theory selection",
+      "conceptual framework building",
+      "mechanism logic",
+      "theory contribution statements"
+    ],
+    "scope_out": [
+      "full empirical design",
+      "journal fit decisions",
+      "line-by-line copyediting"
+    ]
+  },
+  {
+    "skill_id": "dan-design",
+    "name": "dan-design",
+    "description_zh": "用问题、解释、证据、分析四重对齐来设计研究方案。",
+    "description_en": "Use a four-layer alignment model to connect question, explanation, evidence, and analysis.",
+    "triggers": [
+      "Help me choose a method",
+      "Does my design fit my research question",
+      "帮我选研究方法",
+      "我的设计和问题匹配吗"
+    ],
+    "pack_ids": [
+      "design"
+    ],
+    "related_skills": [
+      "dan-question-gap",
+      "dan-theory",
+      "dan-method-atlas"
+    ],
+    "scope_in": [
+      "research design alignment",
+      "data-type selection",
+      "mixed methods logic",
+      "content analysis framing"
+    ],
+    "scope_out": [
+      "software-specific analysis code",
+      "journal reviewer response wording",
+      "full thesis structuring"
+    ]
+  },
+  {
+    "skill_id": "dan-paper-writing",
+    "name": "dan-paper-writing",
+    "description_zh": "把论文写作拆成结构设计、章节接口和表达策略三层。",
+    "description_en": "Break paper writing into structure, section interfaces, and expression boundaries.",
+    "triggers": [
+      "How should I structure my paper",
+      "Help me outline an introduction or discussion",
+      "论文结构怎么搭",
+      "discussion 怎么写"
+    ],
+    "pack_ids": [
+      "writing"
+    ],
+    "related_skills": [
+      "dan-theory",
+      "dan-design",
+      "dan-submission"
+    ],
+    "scope_in": [
+      "paper outline",
+      "section-by-section logic",
+      "results vs discussion boundaries",
+      "conceptual framework writing"
+    ],
+    "scope_out": [
+      "review-paper protocol",
+      "journal cover letter drafting",
+      "dataset construction"
+    ]
+  },
+  {
+    "skill_id": "dan-review-paper",
+    "name": "dan-review-paper",
+    "description_zh": "帮助用户区分综述论文与文献综述，并组织综述的筛选、分类和贡献表达。",
+    "description_en": "Differentiate review articles from regular literature reviews and organize screening, synthesis, and contribution writing.",
+    "triggers": [
+      "How do I write a review paper",
+      "Should this be a systematic review or not",
+      "综述论文怎么写",
+      "PRISMA 应该怎么用"
+    ],
+    "pack_ids": [
+      "review-paper"
+    ],
+    "related_skills": [
+      "dan-literature",
+      "dan-question-gap",
+      "dan-paper-writing"
+    ],
+    "scope_in": [
+      "review type selection",
+      "screening criteria",
+      "PRISMA-ready workflows",
+      "review findings structure"
+    ],
+    "scope_out": [
+      "single-study empirical writing",
+      "response letter drafting",
+      "general planning coaching"
+    ]
+  },
+  {
+    "skill_id": "dan-submission",
+    "name": "dan-submission",
+    "description_zh": "帮助用户处理投稿前判断、附件清单、返修结构和分歧沟通。",
+    "description_en": "Support pre-submission checks, submission packages, response letters, and reviewer negotiation.",
+    "triggers": [
+      "How do I reply to reviewers",
+      "Help me prepare my submission package",
+      "返修怎么写 response letter",
+      "投稿前要准备什么"
+    ],
+    "pack_ids": [
+      "submission"
+    ],
+    "related_skills": [
+      "dan-paper-writing",
+      "dan-defense",
+      "dan-academic-tools"
+    ],
+    "scope_in": [
+      "submission package planning",
+      "reviewer response logic",
+      "revision strategy",
+      "disagreement framing"
+    ],
+    "scope_out": [
+      "full paper drafting",
+      "detailed stats debugging",
+      "research question formation"
+    ]
+  },
+  {
+    "skill_id": "dan-defense",
+    "name": "dan-defense",
+    "description_zh": "帮助用户按场景准备文献汇报、proposal defense、mid-term review 和 final defense。",
+    "description_en": "Prepare literature talks, proposal defenses, mid-term reviews, and final defenses by communication scenario.",
+    "triggers": [
+      "Help me prepare for my proposal defense",
+      "How should I structure an academic presentation",
+      "开题答辩怎么准备",
+      "学术汇报怎么讲"
+    ],
+    "pack_ids": [
+      "defense"
+    ],
+    "related_skills": [
+      "dan-research",
+      "dan-paper-writing",
+      "dan-submission"
+    ],
+    "scope_in": [
+      "presentation structure",
+      "defense slide logic",
+      "oral explanation boundaries",
+      "thesis-organization communication"
+    ],
+    "scope_out": [
+      "full manuscript submission",
+      "detailed qualitative coding",
+      "database search strategies"
+    ]
+  },
+  {
+    "skill_id": "dan-planning",
+    "name": "dan-planning",
+    "description_zh": "帮助用户把长期研究拆成阶段、节奏、里程碑和复盘机制。",
+    "description_en": "Turn long-horizon research into stages, rhythms, milestones, and review loops.",
+    "triggers": [
+      "Help me plan my PhD workflow",
+      "I am stuck and not making progress",
+      "科研时间安排怎么做",
+      "我总推进不下去"
+    ],
+    "pack_ids": [
+      "planning"
+    ],
+    "related_skills": [
+      "dan-research",
+      "dan-literature",
+      "dan-defense"
+    ],
+    "scope_in": [
+      "time planning",
+      "weekly and monthly pacing",
+      "milestone design",
+      "execution diagnostics"
+    ],
+    "scope_out": [
+      "topic-specific theory building",
+      "journal formatting",
+      "coding or statistical estimation"
+    ]
+  },
+  {
+    "skill_id": "dan-method-atlas",
+    "name": "dan-method-atlas",
+    "description_zh": "给研究者提供跨方法导航，而不是单一方法教程。",
+    "description_en": "Offer cross-method navigation instead of a single-method tutorial.",
+    "triggers": [
+      "Which methods are suitable for this type of question",
+      "Give me a method atlas",
+      "给我一个方法图谱",
+      "什么问题适合什么方法"
+    ],
+    "pack_ids": [
+      "methods"
+    ],
+    "related_skills": [
+      "dan-design",
+      "dan-theory",
+      "dan-review-paper"
+    ],
+    "scope_in": [
+      "cross-method comparison",
+      "task-to-method routing",
+      "evidence-type overview",
+      "method risk awareness"
+    ],
+    "scope_out": [
+      "software-specific execution",
+      "complete study design writing",
+      "submission or defense coaching"
+    ]
+  },
+  {
+    "skill_id": "dan-academic-tools",
+    "name": "dan-academic-tools",
+    "description_zh": "整理文献、写作、投稿、汇报和规划中的工具流与模板流。",
+    "description_en": "Organize toolflows and reusable templates for literature work, writing, submission, presentation, and planning.",
+    "triggers": [
+      "What tools should I use for this research workflow",
+      "Help me choose a template or toolchain",
+      "科研工具怎么搭",
+      "有哪些可复用模板"
+    ],
+    "pack_ids": [
+      "tools"
+    ],
+    "related_skills": [
+      "dan-literature",
+      "dan-paper-writing",
+      "dan-submission"
+    ],
+    "scope_in": [
+      "toolchain selection",
+      "template routing",
+      "AI assistance boundaries",
+      "workflow support assets"
+    ],
+    "scope_out": [
+      "proprietary software training",
+      "sensitive data processing advice",
+      "domain-specific programming frameworks"
+    ]
+  },
+  {
+    "skill_id": "dan-upgrade",
+    "name": "dan-upgrade",
+    "description_zh": "维护 skillkit 的增量更新、来源映射和双宿主分发。",
+    "description_en": "Maintain incremental updates, source mapping, and dual-host skill distribution.",
+    "triggers": [
+      "Update this research skillkit",
+      "Refresh packs after new source material arrives",
+      "更新这个 skillkit",
+      "刷新来源映射和技能布局"
+    ],
+    "pack_ids": [
+      "upgrade"
+    ],
+    "related_skills": [
+      "dan-research",
+      "dan-method-atlas",
+      "dan-academic-tools"
+    ],
+    "scope_in": [
+      "source refresh",
+      "pack regeneration",
+      "dual-host build",
+      "coverage checks"
+    ],
+    "scope_out": [
+      "subject-matter answering for a specific research problem",
+      "paper drafting",
+      "private-source publication decisions"
+    ]
+  }
+]

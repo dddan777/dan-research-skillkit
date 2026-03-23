@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "source_card",
+  "type": "object",
+  "required": [
+    "source_id",
+    "theme",
+    "title_normalized",
+    "language",
+    "content_type",
+    "core_claims",
+    "frameworks",
+    "steps",
+    "pitfalls",
+    "provenance_note"
+  ],
+  "properties": {
+    "source_id": { "type": "string" },
+    "theme": { "type": "string" },
+    "title_normalized": { "type": "string" },
+    "language": { "type": "string" },
+    "content_type": { "type": "string" },
+    "core_claims": { "type": "array", "items": { "type": "string" } },
+    "frameworks": { "type": "array", "items": { "type": "string" } },
+    "steps": { "type": "array", "items": { "type": "string" } },
+    "pitfalls": { "type": "array", "items": { "type": "string" } },
+    "provenance_note": { "type": "string" }
+  }
+}

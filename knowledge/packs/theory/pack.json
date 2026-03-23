@@ -1,0 +1,43 @@
+{
+  "pack_id": "theory",
+  "skill_id": "dan-theory",
+  "title_zh": "理论基础、概念框架与理论贡献",
+  "title_en": "Theory Base, Conceptual Framework, and Theoretical Contribution",
+  "summary_zh": "这个知识包把理论部分从“堆理论”改成“解释现象的结构”，重点是概念、关系、机制、边界和贡献写法。",
+  "summary_en": "This pack treats theory as an explanatory structure rather than a list of citations, with emphasis on concepts, mechanisms, boundaries, and contribution claims.",
+  "concepts": [
+    "理论基础 / theoretical base",
+    "概念框架 / conceptual framework",
+    "机制链 / mechanism chain",
+    "理论贡献 / theoretical contribution"
+  ],
+  "frameworks": [
+    {
+      "title": "Concept-Relation-Mechanism",
+      "description": "Clarify the concepts, their relationships, and the mechanism that makes the relationship meaningful."
+    },
+    {
+      "title": "Five Contribution Moves",
+      "description": "Extend, refine, integrate, bound, or re-specify an existing explanation instead of making vague novelty claims."
+    }
+  ],
+  "checklists": [
+    "Why this theory and not another nearby explanation?",
+    "What mechanism am I truly claiming?",
+    "Would the contribution still hold without my core argument?"
+  ],
+  "templates": [
+    "conceptual framework note",
+    "mechanism statement",
+    "theoretical contribution paragraph"
+  ],
+  "source_ids": [
+    "S0401",
+    "S0402",
+    "S0403",
+    "S0404",
+    "S0406",
+    "S0405",
+    "S0407"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pack_id": "review-paper",
+  "skill_id": "dan-review-paper",
+  "title_zh": "综述论文类型、筛选规范与写作组织",
+  "title_en": "Review Article Types, Screening Standards, and Writing Logic",
+  "summary_zh": "这个知识包强调综述论文不是把文献堆在一起，而是通过筛选标准、组织逻辑和发现结构形成独立贡献。",
+  "summary_en": "This pack frames a review article as an argument built from explicit selection rules, synthesis logic, and an interpretable findings structure.",
+  "concepts": [
+    "综述论文 / review article",
+    "文献综述 / literature review section",
+    "纳入标准 / inclusion criteria",
+    "PRISMA-ready process"
+  ],
+  "frameworks": [
+    {
+      "title": "Review-Type Decision",
+      "description": "Choose among narrative, systematic, scoping, or theory-building review according to the problem and evidence base."
+    },
+    {
+      "title": "Screen-Sort-Synthesize",
+      "description": "Move from corpus building to coding, then from coding to analytical contribution."
+    }
+  ],
+  "checklists": [
+    "What kind of review am I truly writing?",
+    "Would another researcher understand my inclusion logic?",
+    "Are my findings organized as an argument rather than a stack of summaries?"
+  ],
+  "templates": [
+    "review protocol note",
+    "inclusion criteria sheet",
+    "review findings matrix"
+  ],
+  "source_ids": [
+    "S0701",
+    "S0702",
+    "S0703",
+    "S0705",
+    "A0102",
+    "A0103",
+    "S0704",
+    "S0706"
+  ]
+}

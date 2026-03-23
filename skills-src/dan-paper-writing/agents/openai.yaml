@@ -1,0 +1,3 @@
+display_name: "dan-paper-writing"
+short_description: "Break paper writing into structure, section interfaces, and expression boundaries."
+default_prompt: "How should I structure my paper"

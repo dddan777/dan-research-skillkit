@@ -1,0 +1,4 @@
+item_id,topic,status,note
+audio-backlog,audio,pending,Audio material stays outside the public release until it is transcribed and normalized.
+template-backlog,templates,pending,Editable templates should be reconstructed into neutral checklists before publication.
+image-heavy-backlog,ocr,pending,Image-heavy PDFs require OCR or manual normalization before deeper reuse.

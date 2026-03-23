@@ -1,0 +1,3 @@
+display_name: "dan-method-atlas"
+short_description: "Offer cross-method navigation instead of a single-method tutorial."
+default_prompt: "Which methods are suitable for this type of question"

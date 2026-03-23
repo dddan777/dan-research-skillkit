@@ -1,0 +1,44 @@
+{
+  "pack_id": "question-gap",
+  "skill_id": "dan-question-gap",
+  "title_zh": "研究问题、research gap 与创新点形成",
+  "title_en": "Research Questions, Gaps, and Contribution Formation",
+  "summary_zh": "这个知识包关注从方向到问题、从问题到 gap、从 gap 到创新点的三段压缩过程，强调边界、价值与可研究性。",
+  "summary_en": "This pack focuses on the compression chain from topic to question, from question to gap, and from gap to contribution.",
+  "concepts": [
+    "研究问题 / research question",
+    "研究空缺 / research gap",
+    "创新点 / novelty",
+    "研究边界 / scope boundary"
+  ],
+  "frameworks": [
+    {
+      "title": "Topic-to-Question Compression",
+      "description": "Move from broad direction to object, relationship, and boundary in one sentence."
+    },
+    {
+      "title": "Gap-to-Contribution Ladder",
+      "description": "A gap matters only when you can explain why filling it changes explanation, evidence, comparison, or boundary conditions."
+    }
+  ],
+  "checklists": [
+    "Is the question researchable with available evidence?",
+    "What kind of gap am I claiming?",
+    "Why would the answer matter beyond curiosity?"
+  ],
+  "templates": [
+    "one-sentence research question",
+    "gap statement",
+    "contribution note"
+  ],
+  "source_ids": [
+    "S0301",
+    "S0302",
+    "S0304",
+    "S0305",
+    "S0307",
+    "S0303",
+    "S0306",
+    "S0308"
+  ]
+}

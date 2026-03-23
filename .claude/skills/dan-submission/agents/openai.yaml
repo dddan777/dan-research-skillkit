@@ -1,0 +1,3 @@
+display_name: "dan-submission"
+short_description: "Support pre-submission checks, submission packages, response letters, and reviewer negotiation."
+default_prompt: "How do I reply to reviewers"
