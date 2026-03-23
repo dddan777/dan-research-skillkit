@@ -4,17 +4,17 @@ Academic skills and knowledge packs for researchers, designed for both Claude Co
 一个同时适用于 Claude Code 与 Codex 的科研技能工具箱，面向硕士生、博士生与研究写作者。
 
 - Dual-host ready: `.claude/skills/` and `.agents/skills/`
-- Originally reconstructed skills and knowledge packs
-- Neutral provenance with `source_id` mapping only
+- Bilingual skills and knowledge packs
+- Checklists, manifests, and build scripts for academic work
 
 Quick links:
 - [Quick Start](docs/quickstart.md)
 - [Chinese README](README.zh-CN.md)
 
 ## What This Is / 项目简介
-`dan-research-skillkit` is a bilingual research workflow toolkit. It turns a large private academic archive into reusable `dan-*` skills, knowledge packs, manifests, and neutral source mappings.
+`dan-research-skillkit` is a bilingual research workflow toolkit. It turns a long-term academic workflow library into reusable `dan-*` skills, knowledge packs, manifests, and build scripts.
 
-这个仓库不是原始资料搬运库，也不是单一模型专用插件集合。它把长期积累的科研方法材料重构成可调用的技能、知识包和中性来源索引。
+这个仓库把长期积累的科研方法材料整理成可调用的技能、知识包、清单和构建脚本，方便在 Claude Code 与 Codex 中直接使用。
 
 ## Who This Is For / 适合谁
 - Master's students who need a structured research workflow
@@ -22,10 +22,12 @@ Quick links:
 - Research assistants, academic writers, and independent scholars
 - Anyone who wants skills for literature work, question formation, theory, design, writing, review papers, submission, defense, and long-term planning
 
-## Why Original Reconstruction / 为什么强调原创重构
-This repository publishes reconstructed methods, workflows, checklists, and prompts. It does **not** publish raw PDFs, slides, documents, screenshots, or original page images.
-
-公开层只保留原创重构后的 skill、knowledge pack、schema 和中性 `source_id` 映射，不保留原始文件名、原始路径、原始页面或扫描图。
+## What You Get / 你会得到什么
+- `dan-*` topic skills for literature work, research framing, design, writing, review papers, submission, defense, and planning
+- topic-based knowledge packs with concepts, frameworks, and checklists
+- dual-host layouts for Claude Code and Codex
+- manifests, coverage catalogs, and validation scripts for ongoing maintenance
+- local extraction and build tools for expanding the toolkit over time
 
 ## Quick Start / 快速开始
 1. Clone the repository.
@@ -65,22 +67,14 @@ Knowledge packs live under [`knowledge/packs`](knowledge/packs). Each pack inclu
 - frameworks
 - checklists
 - template names
-- neutral `source_id` coverage
-
-## Neutral Provenance / 中性来源机制
-Public provenance is intentionally neutral:
-- only `source_id`, theme, content type, and derived role are exposed
-- no raw filenames or original paths are published
-- no raw source documents are included in the repository
-
-See [`docs/provenance-policy.md`](docs/provenance-policy.md) for the policy.
+- related skills and pack metadata
 
 ## Repository Structure and Build Flow / 仓库结构与生成方式
 - `skills-src/`: single source of truth for all `dan-*` skills
 - `.claude/skills/`: generated Claude Code layout
 - `.agents/skills/`: generated Codex-compatible layout
 - `knowledge/`: public packs and manifests
-- `catalog/`: neutral source and coverage indexes
+- `catalog/`: coverage indexes, pack maps, and release backlogs
 - `scripts/`: inventory, extraction, normalization, build, and validation tools
 - `schemas/`: JSON schemas for packs, skills, and source cards
 
