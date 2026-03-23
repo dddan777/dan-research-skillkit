@@ -40,25 +40,41 @@ Quick links:
 For Claude Code, see [`docs/install-claude.md`](docs/install-claude.md).  
 For Codex, see [`docs/install-codex.md`](docs/install-codex.md).
 
-## Skills Overview / Skills 总览
-| Skill | Purpose |
+## Choose A Workflow / 按科研情境选择工作流
+| If you need... | Start with |
 | --- | --- |
-| `dan-research` | Route users by stage, bottleneck, and next output |
-| `dan-literature` | Build a literature workflow and evidence pool |
-| `dan-question-gap` | Turn a topic into a question, gap, and contribution |
-| `dan-theory` | Build conceptual frameworks and theoretical claims |
-| `dan-design` | Align question, evidence, data, and analysis |
-| `dan-paper-writing` | Structure papers and manage section logic |
-| `dan-review-paper` | Organize review article strategy and synthesis |
-| `dan-submission` | Prepare submission packages and response logic |
-| `dan-defense` | Prepare presentations, proposal defenses, and final defenses |
-| `dan-planning` | Plan stages, rhythms, and milestones |
-| `dan-method-atlas` | Compare method families and evidence forms |
-| `dan-academic-tools` | Route tools, templates, and AI boundaries |
-| `dan-upgrade` | Maintain packs, mappings, and dual-host builds |
+| a quick diagnosis of your current stage, bottleneck, and next output | [`dan-research`](skills-src/dan-research/SKILL.md) |
+| a reusable literature workflow, search plan, or note matrix | [`dan-literature`](skills-src/dan-literature/SKILL.md) |
+| help turning a broad topic into a question, gap, and contribution | [`dan-question-gap`](skills-src/dan-question-gap/SKILL.md) |
+| help matching theory, design, evidence, and methods | [`dan-theory`](skills-src/dan-theory/SKILL.md) + [`dan-design`](skills-src/dan-design/SKILL.md) |
+| support for paper structure, review writing, submission, or defense | [`docs/skills.md`](docs/skills.md) |
 
-Use a skill when you need action; read a knowledge pack when you need depth.  
-需要执行时调用 skill，需要深入理解时阅读 knowledge pack。
+## Research Workflow Directory / 科研工作流目录
+| Skill | Use it when | Typical output |
+| --- | --- |
+| [`dan-research`](skills-src/dan-research/SKILL.md) | you need stage diagnosis, routing, or next-output planning | stage note, next-output list, routing decision |
+| [`dan-literature`](skills-src/dan-literature/SKILL.md) | you need search terms, reading layers, or a literature matrix | keyword grid, screening logic, literature workflow |
+| [`dan-question-gap`](skills-src/dan-question-gap/SKILL.md) | you need a tighter research question or contribution claim | question statement, gap note, contribution ladder |
+| [`dan-theory`](skills-src/dan-theory/SKILL.md) | you need a conceptual framework or theory contribution | concept map, mechanism statement, theory paragraph |
+| [`dan-design`](skills-src/dan-design/SKILL.md) | you need to align question, data, evidence, and analysis | design alignment table, method-fit note |
+| [`dan-paper-writing`](skills-src/dan-paper-writing/SKILL.md) | you need paper structure or section-level writing logic | outline, section interface note, writing checklist |
+| [`dan-review-paper`](skills-src/dan-review-paper/SKILL.md) | you need a review-paper workflow, not just a literature review | review type decision, screening plan, synthesis frame |
+| [`dan-submission`](skills-src/dan-submission/SKILL.md) | you need submission materials or reviewer-response logic | submission checklist, comment matrix, response skeleton |
+| [`dan-defense`](skills-src/dan-defense/SKILL.md) | you need presentation, proposal, or defense preparation | talk outline, slide logic, defense checklist |
+| [`dan-planning`](skills-src/dan-planning/SKILL.md) | you need pacing, milestones, or execution repair | milestone plan, weekly rhythm, recovery note |
+| [`dan-method-atlas`](skills-src/dan-method-atlas/SKILL.md) | you need cross-method comparison before committing | method comparison table, evidence map |
+| [`dan-academic-tools`](skills-src/dan-academic-tools/SKILL.md) | you need templates, toolchains, or AI-use boundaries | tool stack, template list, workflow support note |
+| [`dan-upgrade`](skills-src/dan-upgrade/SKILL.md) | you maintain the toolkit and need rebuild/release discipline | update checklist, rebuild plan, release validation |
+
+Use a skill when you need action. Read the linked pack when you need deeper frameworks, pitfalls, and coverage signals.  
+需要执行时调用 skill；需要更完整的框架、误区和语料覆盖线索时，再读对应的 pack。
+
+## How To Work With A Skill / 一个 skill 应该怎么用
+1. Start with [`dan-research`](skills-src/dan-research/SKILL.md) when you are unsure which bottleneck matters most.
+2. Move into one domain skill and stay there long enough to produce a visible output.
+3. Open the matching pack under [`knowledge/packs`](knowledge/packs) when you need more depth.
+4. Hand off to the next `dan-*` skill only after the current output is clear.
+5. Use [`docs/skills.md`](docs/skills.md) as the full routing directory.
 
 ## Knowledge Packs Overview / Knowledge Packs 总览
 Knowledge packs live under [`knowledge/packs`](knowledge/packs). Each pack includes:
