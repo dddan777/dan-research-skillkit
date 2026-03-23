@@ -31,6 +31,57 @@
     "inclusion criteria sheet",
     "review findings matrix"
   ],
+  "situations": [
+    "想写综述论文，但不知道该做 narrative 还是 systematic",
+    "已经收集了一批文献，却不会组织 review findings",
+    "知道要做筛选，但 PRISMA 和纳入标准总写得很虚"
+  ],
+  "workflow_steps": [
+    "先判断综述目标：盘点、分类、解释还是建模。",
+    "为此选择 review 类型和材料边界。",
+    "建立纳入标准、排除标准和筛选记录。",
+    "把文献编码成主题、机制、方法或情境维度。",
+    "把编码结果改写成发现结构，而不是逐篇摘要。"
+  ],
+  "decision_rules": [
+    "综述论文不是普通 literature review 的拉长版。",
+    "没有清晰筛选规则，就很难建立 review 的可信度。",
+    "review findings 必须回答领域图景发生了什么变化。"
+  ],
+  "deliverables": [
+    "review 类型说明",
+    "筛选协议与记录",
+    "编码表",
+    "review findings 结构图"
+  ],
+  "pitfalls": [
+    "把综述写成文献流水账",
+    "只讲筛选流程，不讲分析逻辑",
+    "类型选错，导致方法和贡献都不匹配",
+    "future research 只写空泛建议"
+  ],
+  "example_prompts": [
+    "请判断这个题目更适合哪一种 review。",
+    "请帮我把筛选后的材料组织成 review findings。",
+    "请检查这套纳入标准是否足够清楚。"
+  ],
+  "corpus_snapshot": {
+    "matched_extracts": 52,
+    "bucket_counts": [
+      {
+        "label": "综述类型与对比",
+        "count": 42
+      },
+      {
+        "label": "PRISMA 与筛选规范",
+        "count": 6
+      },
+      {
+        "label": "经典 review 文献",
+        "count": 4
+      }
+    ]
+  },
   "source_ids": [
     "S0701",
     "S0702",

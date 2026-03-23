@@ -31,6 +31,57 @@
     "introduction scaffold",
     "results-discussion boundary checklist"
   ],
+  "situations": [
+    "材料已经不少，但论文总写不成完整故事",
+    "知道每一章大概要写什么，却不知道章节之间怎么接",
+    "results 和 discussion 常常混在一起"
+  ],
+  "workflow_steps": [
+    "先用八大模块搭一个整体骨架。",
+    "给每一节定义唯一任务，而不是把所有内容都塞进来。",
+    "检查上一节是否真的为下一节提供了写作前提。",
+    "把方法、结果、讨论的边界提前写成规则。",
+    "最后再做例句、润色和表达层面的优化。"
+  ],
+  "decision_rules": [
+    "先建结构，再修句子。",
+    "每节必须能回答‘这节为什么存在’。",
+    "如果结果段已经开始解释意义，说明 discussion 提前了。"
+  ],
+  "deliverables": [
+    "全篇提纲",
+    "章节接口说明",
+    "段落任务表",
+    "results-discussion 边界表"
+  ],
+  "pitfalls": [
+    "一上来就追求漂亮表达",
+    "每节都像独立笔记，缺少论文主线",
+    "把理论、方法和结果写成并列堆叠",
+    "discussion 只重复 results，不做解释推进"
+  ],
+  "example_prompts": [
+    "请帮我把这篇论文整理成八大模块骨架。",
+    "请检查我的 introduction 和 literature review 是否职责混淆。",
+    "请重写这个 section handoff，让下一节接得更自然。"
+  ],
+  "corpus_snapshot": {
+    "matched_extracts": 41,
+    "bucket_counts": [
+      {
+        "label": "结构骨架与模块",
+        "count": 25
+      },
+      {
+        "label": "章节写法与例句",
+        "count": 14
+      },
+      {
+        "label": "概念框架写作",
+        "count": 2
+      }
+    ]
+  },
   "source_ids": [
     "S0601",
     "S0602",

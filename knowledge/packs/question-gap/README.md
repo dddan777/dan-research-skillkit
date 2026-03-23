@@ -11,6 +11,11 @@ This pack focuses on the compression chain from topic to question, from question
 - 帮我找 research gap
 - 把方向变成问题
 
+## Research Situations / 适用情境
+- 方向很多，但总写不出一句可研究的问题
+- 感觉主题有价值，却说不清 gap 在哪里
+- 知道想做创新，但贡献表述总是空泛
+
 ## Core Concepts / 核心概念
 - 研究问题 / research question
 - 研究空缺 / research gap
@@ -20,6 +25,18 @@ This pack focuses on the compression chain from topic to question, from question
 ## Frameworks / 方法框架
 1. **Topic-to-Question Compression**: Move from broad direction to object, relationship, and boundary in one sentence.
 1. **Gap-to-Contribution Ladder**: A gap matters only when you can explain why filling it changes explanation, evidence, comparison, or boundary conditions.
+
+## Expanded Workflow / 扩展工作流
+1. 先把方向压成对象、关系和边界三要素。
+2. 判断你缺的是现象理解、理论解释、方法设计还是情境比较。
+3. 把 gap 写成一句‘已有研究做了什么，还缺什么，为何值得补’。
+4. 把 gap 再推进成具体创新点和预期贡献。
+5. 最后反查：这个问题是否真的能被现有证据支持。
+
+## Decision Rules / 判断规则
+- 如果问题一句话里没有对象、关系和边界，就还不是研究问题。
+- 如果 gap 只能说‘很少有人研究’，那还不够。
+- 如果贡献不能回到理论、方法、证据或边界，说明创新点还太虚。
 
 ## Checklists / 检查清单
 - Is the question researchable with available evidence?
@@ -31,12 +48,35 @@ This pack focuses on the compression chain from topic to question, from question
 - `gap statement`
 - `contribution note`
 
+## Suggested Deliverables / 建议产出
+- 一句话研究问题
+- gap 说明
+- 创新点说明
+- 研究边界说明
+
+## Common Pitfalls / 常见误区
+- 把热门主题直接当作研究问题
+- 把研究不足写成泛泛空白
+- 只会列创新点，不会说明为什么重要
+- 问题太大，证据能力太弱
+
+## Local Corpus Signals / 本地语料覆盖信号
+- matched unique extracts: 33
+- 研究问题形成: 14
+- gap 与创新点: 16
+- 研究价值与边界: 3
+
+## Example Prompts / 调用示例
+- 请把这个研究方向压成一个有边界的问题。
+- 请帮我把现有文献里的缺口转成可写的 gap。
+- 请检查这个贡献说法是不是仍然太空。
+
 ## Related Skills / 关联技能
 - `dan-literature`
 - `dan-theory`
 - `dan-design`
 
-## Neutral Source Coverage / 中性来源映射
+## Pack Coverage / Pack 覆盖
 - `S0301`
 - `S0302`
 - `S0304`

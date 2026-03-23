@@ -26,6 +26,13 @@
     "frameworks": { "type": "array", "items": { "type": "object" } },
     "checklists": { "type": "array", "items": { "type": "string" } },
     "templates": { "type": "array", "items": { "type": "string" } },
+    "situations": { "type": "array", "items": { "type": "string" } },
+    "workflow_steps": { "type": "array", "items": { "type": "string" } },
+    "decision_rules": { "type": "array", "items": { "type": "string" } },
+    "deliverables": { "type": "array", "items": { "type": "string" } },
+    "pitfalls": { "type": "array", "items": { "type": "string" } },
+    "example_prompts": { "type": "array", "items": { "type": "string" } },
+    "corpus_snapshot": { "type": "object" },
     "source_ids": { "type": "array", "items": { "type": "string" } }
   }
 }
