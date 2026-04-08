@@ -45,6 +45,7 @@ For Codex, see [`docs/install-codex.md`](docs/install-codex.md).
 | --- | --- |
 | a quick diagnosis of your current stage, bottleneck, and next output | [`dan-research`](skills-src/dan-research/SKILL.md) |
 | a reusable literature workflow, search plan, or note matrix | [`dan-literature`](skills-src/dan-literature/SKILL.md) |
+| a full literature operations stack with Google Scholar, CNKI, Zotero, and review prep | [`dan-literature-stack`](skills-src/dan-literature-stack/SKILL.md) |
 | help turning a broad topic into a question, gap, and contribution | [`dan-question-gap`](skills-src/dan-question-gap/SKILL.md) |
 | help matching theory, design, evidence, and methods | [`dan-theory`](skills-src/dan-theory/SKILL.md) + [`dan-design`](skills-src/dan-design/SKILL.md) |
 | support for paper structure, review writing, submission, or defense | [`docs/skills.md`](docs/skills.md) |
@@ -54,6 +55,7 @@ For Codex, see [`docs/install-codex.md`](docs/install-codex.md).
 | --- | --- |
 | [`dan-research`](skills-src/dan-research/SKILL.md) | you need stage diagnosis, routing, or next-output planning | stage note, next-output list, routing decision |
 | [`dan-literature`](skills-src/dan-literature/SKILL.md) | you need search terms, reading layers, or a literature matrix | keyword grid, screening logic, literature workflow |
+| [`dan-literature-stack`](skills-src/dan-literature-stack/SKILL.md) | you need Google Scholar/CNKI acquisition, Zotero project setup, and review-ready corpus prep | stack install report, collection schema, review-ready corpus checklist |
 | [`dan-question-gap`](skills-src/dan-question-gap/SKILL.md) | you need a tighter research question or contribution claim | question statement, gap note, contribution ladder |
 | [`dan-theory`](skills-src/dan-theory/SKILL.md) | you need a conceptual framework or theory contribution | concept map, mechanism statement, theory paragraph |
 | [`dan-design`](skills-src/dan-design/SKILL.md) | you need to align question, data, evidence, and analysis | design alignment table, method-fit note |
@@ -75,6 +77,16 @@ Use a skill when you need action. Read the linked pack when you need deeper fram
 3. Open the matching pack under [`knowledge/packs`](knowledge/packs) when you need more depth.
 4. Hand off to the next `dan-*` skill only after the current output is clear.
 5. Use [`docs/skills.md`](docs/skills.md) as the full routing directory.
+
+## Literature Stack / 文献采集与综述工作流栈
+Use [`dan-literature-stack`](skills-src/dan-literature-stack/SKILL.md) when you want one orchestrator for:
+- Google Scholar discovery
+- CNKI search and export
+- Zotero MCP setup and project collections
+- batch organization, tagging, and duplicate cleanup
+- review-ready source preparation before `dan-review-paper`
+
+The setup reference lives at [`skills-src/dan-literature-stack/references/stack-setup.md`](skills-src/dan-literature-stack/references/stack-setup.md), and the installer script is [`scripts/install_literature_stack.py`](scripts/install_literature_stack.py).
 
 ## Knowledge Packs Overview / Knowledge Packs 总览
 Knowledge packs live under [`knowledge/packs`](knowledge/packs). Each pack includes:

@@ -14,6 +14,7 @@ cd dan-research-skillkit
 Start with:
 - `dan-research` if you need stage diagnosis
 - `dan-literature` if you need literature support
+- `dan-literature-stack` if you need Google Scholar/CNKI + Zotero + review preparation
 - `dan-question-gap` if your topic is still vague
 - `dan-paper-writing` if you already have material and need structure
 

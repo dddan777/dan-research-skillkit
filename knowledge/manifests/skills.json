@@ -62,6 +62,38 @@
     ]
   },
   {
+    "skill_id": "dan-literature-stack",
+    "name": "dan-literature-stack",
+    "description_zh": "把 Google Scholar、CNKI、Zotero MCP 和综述产出串成一条可执行的文献采集与项目管理工作流。",
+    "description_en": "Connect Google Scholar, CNKI, Zotero MCP, and review generation into one executable literature operations workflow.",
+    "triggers": [
+      "Set up a literature stack with Zotero and Scholar",
+      "Help me batch collect papers into Zotero and organize a review project",
+      "帮我配置 Google Scholar/CNKI + Zotero 的文献工作流",
+      "批量下载文献、管理项目库并生成综述任务"
+    ],
+    "pack_ids": [
+      "literature-stack"
+    ],
+    "related_skills": [
+      "dan-literature",
+      "dan-review-paper",
+      "dan-academic-tools"
+    ],
+    "scope_in": [
+      "literature stack installation planning",
+      "Google Scholar and CNKI collection workflows",
+      "Zotero project collections and batch organization",
+      "review-ready library preparation"
+    ],
+    "scope_out": [
+      "bypassing paywalls or access controls",
+      "solving captchas programmatically",
+      "guaranteeing third-party CLI or browser compatibility",
+      "final publication-ready review writing without source screening"
+    ]
+  },
+  {
     "skill_id": "dan-question-gap",
     "name": "dan-question-gap",
     "description_zh": "帮助用户把方向压缩成值得研究的问题，并把 gap 转成创新点与贡献表述。",

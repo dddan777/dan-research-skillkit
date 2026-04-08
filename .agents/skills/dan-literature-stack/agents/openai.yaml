@@ -1,0 +1,3 @@
+display_name: "dan-literature-stack"
+short_description: "Connect Google Scholar, CNKI, Zotero MCP, and review generation into one executable literature operations workflow."
+default_prompt: "Set up a literature stack with Zotero and Scholar"

@@ -52,6 +52,7 @@ python3 scripts/validate_repo.py
 | --- | --- |
 | 先判断自己卡在哪一层、下一步该产出什么 | [dan-research](skills-src/dan-research/SKILL.md) |
 | 搭建找文献、筛文献、做笔记、建文献池的流程 | [dan-literature](skills-src/dan-literature/SKILL.md) |
+| 把 Google Scholar、CNKI、Zotero 和综述准备串成一条工作流 | [dan-literature-stack](skills-src/dan-literature-stack/SKILL.md) |
 | 把一个宽泛方向压缩成研究问题、gap 和贡献 | [dan-question-gap](skills-src/dan-question-gap/SKILL.md) |
 | 对齐理论、设计、证据与方法 | [dan-theory](skills-src/dan-theory/SKILL.md) + [dan-design](skills-src/dan-design/SKILL.md) |
 | 处理论文写作、综述、投稿或答辩 | [docs/skills.md](docs/skills.md) |
@@ -61,6 +62,7 @@ python3 scripts/validate_repo.py
 | --- | --- |
 | [dan-research](skills-src/dan-research/SKILL.md) | 不知道自己处于哪个阶段，或不确定下一步最值得做什么 | 阶段诊断、下一产出清单、路由建议 |
 | [dan-literature](skills-src/dan-literature/SKILL.md) | 需要检索词、阅读层次或文献整理表 | 关键词网格、筛选逻辑、文献工作流 |
+| [dan-literature-stack](skills-src/dan-literature-stack/SKILL.md) | 需要 Scholar/CNKI 采集、Zotero 项目库搭建和综述就绪语料整理 | 安装结果、collection 方案、综述就绪语料清单 |
 | [dan-question-gap](skills-src/dan-question-gap/SKILL.md) | 需要把方向压成问题、gap 和贡献 | 问题陈述、gap 说明、贡献梯子 |
 | [dan-theory](skills-src/dan-theory/SKILL.md) | 需要搭概念框架、机制链或理论贡献 | 概念图、机制表述、理论段落 |
 | [dan-design](skills-src/dan-design/SKILL.md) | 需要对齐问题、数据、证据与分析 | 设计对齐表、方法匹配说明 |
@@ -90,6 +92,16 @@ python3 scripts/validate_repo.py
 3. 需要更多方法深度时，再打开对应的 [knowledge/packs](knowledge/packs)。
 4. 当前产出清楚之后，再交接到下一个 `dan-*` skill。
 5. 完整目录和交接关系见 [docs/skills.md](docs/skills.md)。
+
+## 文献采集与综述工作流栈 / Literature Stack
+当你希望把下面这些任务串成一条线时，优先使用 [dan-literature-stack](skills-src/dan-literature-stack/SKILL.md)：
+- Google Scholar 检索与引用追踪
+- CNKI 检索、导出与授权下载
+- Zotero MCP 配置与项目 collection 管理
+- 批量标签、去重、项目库整理
+- 交给 `dan-review-paper` 之前的综述就绪语料准备
+
+安装与宿主说明见 [skills-src/dan-literature-stack/references/stack-setup.md](skills-src/dan-literature-stack/references/stack-setup.md)，自动安装脚本见 [scripts/install_literature_stack.py](scripts/install_literature_stack.py)。
 
 ## 仓库结构与生成方式 / Repository Structure and Build Flow
 - `skills-src/`：唯一真源

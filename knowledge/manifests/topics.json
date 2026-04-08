@@ -28,6 +28,24 @@
     ]
   },
   {
+    "pack_id": "literature-stack",
+    "topic": "literature-stack",
+    "skill_id": "dan-literature-stack",
+    "source_ids": [
+      "S0201",
+      "S0202",
+      "S0203",
+      "S0204",
+      "S0205",
+      "S0206",
+      "S0207",
+      "T0101",
+      "T0102",
+      "T0103",
+      "T0104"
+    ]
+  },
+  {
     "pack_id": "question-gap",
     "topic": "question-gap",
     "skill_id": "dan-question-gap",

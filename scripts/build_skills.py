@@ -66,6 +66,25 @@ def format_corpus_snapshot(pack: dict[str, object]) -> str:
     return "\n".join(lines) if lines else "- no local corpus snapshot available"
 
 
+def format_optional_section(title: str, content: str) -> str:
+    if not content.strip():
+        return ""
+    return f"## {title}\n{content}"
+
+
+def format_reference_guides(items: list[dict[str, str]]) -> str:
+    lines = []
+    for item in items:
+        label = item.get("label", "reference")
+        path = item.get("path", "")
+        when = item.get("when")
+        line = f"- `{path}`: {label}"
+        if when:
+            line += f" — {when}"
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def build_skill_md(
     skill: dict[str, object],
     pack: dict[str, object],
@@ -93,6 +112,17 @@ def build_skill_md(
     )
     example_prompts = format_bullets(pack.get("example_prompts", []))
     corpus_snapshot = format_corpus_snapshot(pack)
+    host_support = format_bullets(skill.get("host_support", []))
+    reference_guides = format_reference_guides(skill.get("reference_guides", []))
+    extra_sections = "\n\n".join(
+        section
+        for section in [
+            format_optional_section("Host Support / 宿主支持", host_support),
+            format_optional_section("Bundled References / 配套参考", reference_guides),
+        ]
+        if section
+    )
+    scope_separator = f"\n\n{extra_sections}\n\n" if extra_sections else "\n"
     first_response_pattern = "\n".join(
         [
             "1. Diagnose the situation before offering tools or motivation.",
@@ -153,9 +183,7 @@ description: "{skill['description_en']} {skill['description_zh']}"
 {example_prompts}
 
 ## Local Corpus Signals / 本地语料信号
-{corpus_snapshot}
-
-## Scope In / 负责范围
+{corpus_snapshot}{scope_separator}## Scope In / 负责范围
 {scope_in}
 
 ## Scope Out / 不负责范围

@@ -10,6 +10,7 @@ This page is the routing map for the `dan-*` skills. Use it when you want to cho
 | --- | --- |
 | stage diagnosis and next-output planning | [`dan-research`](../skills-src/dan-research/SKILL.md) |
 | search, reading, note-taking, and a reusable literature pool | [`dan-literature`](../skills-src/dan-literature/SKILL.md) |
+| Google Scholar/CNKI collection plus Zotero project operations | [`dan-literature-stack`](../skills-src/dan-literature-stack/SKILL.md) |
 | a tighter research question, gap, or contribution | [`dan-question-gap`](../skills-src/dan-question-gap/SKILL.md) |
 | conceptual framework and theory contribution | [`dan-theory`](../skills-src/dan-theory/SKILL.md) |
 | method choice and design alignment | [`dan-design`](../skills-src/dan-design/SKILL.md) |
@@ -37,6 +38,12 @@ This page is the routing map for the `dan-*` skills. Use it when you want to cho
 - Typical outputs: keyword grid, screening logic, note fields, literature workflow.
 - Next step: often moves to `dan-question-gap` or `dan-paper-writing`.
 - Pack: [`knowledge/packs/literature`](../knowledge/packs/literature/README.md)
+
+### [`dan-literature-stack`](../skills-src/dan-literature-stack/SKILL.md)
+- Use it when: you want one workflow for Google Scholar or CNKI collection, Zotero project setup, batch organization, and review-ready corpus prep.
+- Typical outputs: stack install report, collection schema, tag plan, review-ready corpus checklist.
+- Next step: often moves to `dan-literature` for matrix design or `dan-review-paper` for synthesis.
+- Pack: [`knowledge/packs/literature-stack`](../knowledge/packs/literature-stack/README.md)
 
 ### [`dan-question-gap`](../skills-src/dan-question-gap/SKILL.md)
 - Use it when: a topic is still too broad, or a gap claim sounds vague and unconvincing.
